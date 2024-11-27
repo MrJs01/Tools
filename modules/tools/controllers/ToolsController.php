@@ -139,4 +139,9 @@ class ToolsController extends Controller
     {
         return $this->render('repo-hub');
     }
+
+    public function actionMindMap()
+    {
+        return $this->render('mindmap');
+    }
 }

@@ -53,6 +53,19 @@ $this->title = 'Home';
                 </div>
             </div>
         </div>
+
+        <!-- MindMap -->
+        <div class="col-md-4 col-sm-6">
+            <div class="card shadow-sm">
+                <div class="card-body text-center">
+                    <h5 class="card-title">MindMap</h5>
+                    <p class="card-text">Crie e gerencie mapas mentais para organizar suas ideias.</p>
+                    <a href="<?= Url::to(['tools/mind-map']) ?>" class="btn btn-warning btn-lg">
+                        <i class="bi bi-bricks"></i> Acessar
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

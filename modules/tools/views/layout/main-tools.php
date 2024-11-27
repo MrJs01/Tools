@@ -47,7 +47,7 @@ $this->beginPage();
         </div>
     </nav>
 
-    <div class="container mt-4" style="height: 100%">
+    <div class="container mt-4" style="height: 100%" id="container_tools">
         <?= Breadcrumbs::widget([
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
